@@ -65,7 +65,7 @@ public:
 		{
 			float tmp = 0;
 
-			for (size_t j = 0; j < filter_order - 1 && i >= j; j++)
+			for (size_t j = 0; j < filter_order && i >= j; j++)
 				tmp += h[j] * data_in[i - j];
 
 			data_out.push_back(tmp);
