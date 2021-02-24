@@ -6,7 +6,7 @@
 //#include <xmmintrin.h>
 
 const float PI = 3.141592653;
-const uint16_t length = 100000;
+const uint32_t length = 100000;
 
 class Timer
 {
